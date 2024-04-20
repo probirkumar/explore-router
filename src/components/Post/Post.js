@@ -17,9 +17,9 @@ const Post = ({ post }) => {
             <p>{title}</p>
             <p><small>{body}</small></p>
 
-            <Link to={`/post/${id}`}>Show Detais3</Link>
+            <Link to={`/post/${id}`}>Visit: {id}</Link>
             <button>
-                <Link to={`/post/${id}`}>Show Details</Link>
+                <Link to={`/post/${id}`}>Show Details: {id}</Link>
             </button>
             <button onClick={handleNavigate}>Show Details2</button>
         </div>
